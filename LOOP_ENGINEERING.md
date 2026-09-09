@@ -48,7 +48,29 @@ Après la preuve :
 
 Ne jamais continuer uniquement parce qu'il reste des améliorations possibles.
 
-## 6. Garde-fous
+## 6. Continuité d'exécution — ne pas attendre artificiellement l'utilisateur
+
+Quand une tâche est engagée, **un message de progression n'est pas un point d'arrêt**. Un résultat intermédiaire, un commit réussi, un test vert, une PR créée ou la découverte de l'étape suivante ne constitue pas une raison d'attendre une nouvelle réponse de l'utilisateur.
+
+Tant qu'une prochaine action utile peut être déterminée à partir de l'objectif déjà exprimé, du dépôt, des tests et des résultats obtenus, **continuer à travailler autonomement et enchaîner les boucles**.
+
+Ne pas demander « veux-tu que je continue ? », « souhaites-tu que je fasse l'étape suivante ? » ou une permission équivalente lorsque la prochaine étape est déjà couverte par l'objectif et reste sûre.
+
+Un arrêt est justifié seulement si au moins une condition réelle est satisfaite :
+- une décision subjective appartient réellement à l'utilisateur ;
+- une information indispensable est inaccessible et ne peut pas être reconstruite ;
+- une autorisation explicite est nécessaire ;
+- continuer présenterait un risque important, destructif ou irréversible ;
+- l'objectif demandé est atteint et la preuve appropriée existe ;
+- les prochaines actions seraient spéculatives, hors objectif ou sans valeur démontrable.
+
+Dans les autres cas : **faire l'étape suivante**.
+
+Ne pas contractualiser une durée arbitraire. L'objectif n'est pas de « travailler quinze minutes », mais d'exploiter l'autonomie disponible jusqu'à un véritable point d'arrêt. Une tâche longue doit rester une succession de petites boucles vérifiables avec progression observable, contrôles et timeouts ; **autonomie longue ≠ commande longue**.
+
+L'utilisateur doit pouvoir lancer un chantier puis faire autre chose sans devoir répondre après chaque micro-étape pour autoriser la suite.
+
+## 7. Garde-fous
 
 - préserver ce qui fonctionne ; ajouter avant de supprimer quand c'est raisonnable ;
 - indisponible ≠ supprimé ≠ remplacé silencieusement ;
