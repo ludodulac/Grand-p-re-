@@ -2,14 +2,16 @@
 
 Grand Père est une mémoire transversale. Ce fichier est un **routeur**, pas une encyclopédie à charger entièrement.
 
-## Avant d'agir
+## Chemin court par défaut
 
 1. Vérifier le vrai `main` de Grand Père.
-2. Identifier le ou les projets concernés.
-3. Lire uniquement leurs fiches dans `projects/` et la section pertinente de `KNOWLEDGE.md`.
-4. Pour toute affirmation sur l'état actuel d'un projet, ouvrir son dépôt source et vérifier `main`, ses documents canoniques, le code/tests/CI pertinents.
-5. Ne jamais laisser Grand Père écraser une vérité plus fraîche du dépôt projet.
-6. Après une découverte durable, mettre à jour la fiche ou la connaissance transversale concernée sans recopier inutilement la documentation source.
+2. Identifier le projet concerné via [`projects/_INDEX.md`](projects/_INDEX.md), puis lire **uniquement sa fiche**.
+3. Ouvrir le dépôt source du projet et vérifier son `main`, ses documents canoniques, le code/tests/CI pertinents.
+4. Si le problème appelle un apprentissage transversal, lire la section pertinente de [`KNOWLEDGE.md`](KNOWLEDGE.md).
+5. Si le problème ressemble à un échec déjà rencontré, passer par [`incidents/_INDEX.md`](incidents/_INDEX.md) puis seulement l'incident pertinent.
+6. Pour une vue de l'écosystème et des relations entre projets, utiliser [`ECOSYSTEM.md`](ECOSYSTEM.md).
+
+**Ne jamais lire tout Grand Père par défaut.**
 
 ## Hiérarchie de vérité
 
@@ -18,9 +20,8 @@ Grand Père est une mémoire transversale. Ce fichier est un **routeur**, pas un
 3. **Grand Père** : carte transversale, contexte, apprentissages, liens et passations.
 4. **Anciennes conversations** : contexte historique seulement si non contredit par les sources ci-dessus.
 
-## Types d'information
+## À conserver ici
 
-### À conserver ici
 - mission et maturité de chaque projet ;
 - spécialité architecturale ou produit ;
 - invariants particulièrement importants ;
@@ -30,9 +31,9 @@ Grand Père est une mémoire transversale. Ce fichier est un **routeur**, pas un
 - relations entre projets ;
 - état de réflexion produit lorsqu'il est important de ne pas le confondre avec une décision validée.
 
-### À revérifier, pas à mémoriser comme vérité
-- dernier commit ;
-- SHA ;
+## À revérifier, pas à mémoriser comme vérité
+
+- dernier commit ou SHA ;
 - PR ouverte ;
 - CI du jour ;
 - compteurs de tests/données ;
@@ -52,12 +53,8 @@ Quand une conversation importante se termine :
 
 ## Test de qualité
 
-Une nouvelle conversation sans historique doit pouvoir :
-- comprendre quels projets existent ;
-- savoir ce qui les distingue ;
-- retrouver leurs sources de vérité ;
-- connaître les grands enseignements déjà acquis ;
-- éviter de répéter les erreurs importantes ;
-- puis aller vérifier l'état réel du projet avant d'agir.
+Une nouvelle conversation sans historique doit pouvoir trouver son chemin avec :
+
+**AI_START_HERE → un index → une fiche/source pertinente → dépôt projet.**
 
 Si elle doit lire tout Grand Père pour travailler sur un seul projet, l'organisation a échoué.
