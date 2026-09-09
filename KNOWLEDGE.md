@@ -29,6 +29,18 @@ Ne pas confondre :
 
 Une CI verte ne prouve pas qu'une expérience est bonne, qu'une UX est comprise ou qu'un produit répond à son marché.
 
+### Déterminisme ≠ prédictibilité humaine
+
+Un système peut être parfaitement déterministe dans le code et rester opaque pour l'utilisateur. Une règle correcte n'est pas encore une règle lisible.
+
+Lorsqu'une interaction doit être comprise intuitivement, chercher une causalité perceptible :
+
+`j'observe → je prédis → j'agis → je constate`
+
+Un état caché, une mémoire interne ou une règle secondaire peut améliorer techniquement un comportement tout en diminuant sa compréhension. Avant d'ajouter explications, tutoriels ou effets, vérifier que l'utilisateur peut raisonnablement anticiper la conséquence à partir de ce qu'il voit.
+
+Cette leçon a été rendue particulièrement nette par Genesis EXP-021 : l'anti-ping-pong était déterministe et techniquement défendable, mais le test humain montrait que la boule semblait avoir sa propre volonté. Le bon niveau de correction était donc la règle fondamentale de mouvement, pas davantage d'interface ou de mémoire.
+
 ## 4. Préservation et mutation sûre
 
 Principe général : **ajouter/étendre avant de supprimer ou réécrire**, sauf lorsque le retrait est réellement l'objectif.
