@@ -1,6 +1,6 @@
 # Célébrations des Archanges
 
-Source : `ludodulac/C-l-brations`.
+Source : `ludodulac/Celebrations`.
 
 ## Mission
 Interface publique et administration de célébrations, contenus, groupes, participants et programmes, avec personnalisation par profils visiteurs.
