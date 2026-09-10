@@ -8,9 +8,10 @@ Grand Père est une mémoire transversale. Ce fichier est un **routeur**, pas un
 2. Identifier le projet concerné via [`projects/_INDEX.md`](projects/_INDEX.md), puis lire **uniquement sa fiche**.
 3. Ouvrir le dépôt source du projet et vérifier son `main`, ses documents canoniques, le code/tests/CI pertinents.
 4. Pour un travail itératif ou autonome, appliquer [`LOOP_ENGINEERING.md`](LOOP_ENGINEERING.md) : objectif → état réel → écart borné → première couche responsable → action minimale → preuve → continue/pivot/stop.
-5. Si le problème appelle un apprentissage transversal, lire la section pertinente de [`KNOWLEDGE.md`](KNOWLEDGE.md).
-6. Si le problème ressemble à un échec déjà rencontré, passer par [`incidents/_INDEX.md`](incidents/_INDEX.md) puis seulement l'incident pertinent.
-7. Pour une vue de l'écosystème et des relations entre projets, utiliser [`ECOSYSTEM.md`](ECOSYSTEM.md).
+5. Pour superviser une conversation spécialisée ou préparer un message « Grand-père → projet », appliquer [`SUPERVISION.md`](SUPERVISION.md).
+6. Si le problème appelle un apprentissage transversal, lire la section pertinente de [`KNOWLEDGE.md`](KNOWLEDGE.md).
+7. Si le problème ressemble à un échec déjà rencontré, passer par [`incidents/_INDEX.md`](incidents/_INDEX.md) puis seulement l'incident pertinent.
+8. Pour une vue de l'écosystème et des relations entre projets, utiliser [`ECOSYSTEM.md`](ECOSYSTEM.md).
 
 **Ne jamais lire tout Grand Père par défaut.**
 
