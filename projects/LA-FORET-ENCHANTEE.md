@@ -1,6 +1,6 @@
 # La Forêt Enchantée
 
-Source : `ludodulac/La-for-t-enchant-e`.
+Source : `ludodulac/La-foret-enchantee`.
 
 ## Mission
 Médiathèque personnelle audio jeunesse avec lecture publique, fiches audio, blog et administration.
